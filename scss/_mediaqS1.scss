@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+    #header1{
+        background-position: top;
+        background-size: 950px;
+        background-repeat: no-repeat;
+        #contenedorSeccion1{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin-top: 320px;
+            .parrafoSeccion1{
+                margin: 0px 30px;
+                padding: 23px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 426px){
+    #header1{
+        background-size: 600px;
+        #contenedorSeccion1{
+            margin-top: 190px;
+            .tituloSeccion1{
+                margin-top: 0px;
+            }
+            .parrafoSeccion1{
+                margin: 0px 10px;
+                font-size: 20px;
+            }
+        }
+    }
+    .formularioDeRegistro{
+        width: 365px;
+        padding: 25px;
+        p{
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 376px){
+    .formularioDeRegistro {
+        width: 330px;
+        padding: 10px;
+    }
+}

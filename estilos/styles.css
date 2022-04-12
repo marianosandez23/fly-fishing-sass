@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62,5%; }
+
+#body {
+  text-align: center;
+  background-color: black; }
+  #body h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: lighter;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.7); }
+  #body h2 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #f5f5f5b8; }
+  #body h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Hubballi', cursive; }
+  #body h5 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(47, 79, 79, 0.5);
+    margin: 0px; }
+  #body p {
+    color: #787878;
+    font-size: 25px;
+    font-family: 'Hubballi', cursive; }
+  #body .fraseFinal h5 {
+    padding: 10px 0px;
+    background-color: rgba(169, 169, 169, 0.17);
+    color: black; }
+
+#header1 {
+  background-image: url(../imagenes/truchaImagen1.jpg);
+  background-position: center;
+  background-size: cover; }
+  #header1 .editorNavbar {
+    background-color: rgba(169, 169, 169, 0.3); }
+    #header1 .editorNavbar .editorContainer1 {
+      padding: 0px; }
+      #header1 .editorNavbar .editorContainer1 .editorBoton {
+        background-color: rgba(169, 169, 169, 0.12); }
+      #header1 .editorNavbar .editorContainer1 .editorCentrarNav {
+        display: flex;
+        justify-content: center; }
+        #header1 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav {
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          column-gap: 45px; }
+          #header1 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink {
+            margin: 5px 0px;
+            padding: 0px; }
+  #header1 #contenedorSeccion1 {
+    height: calc(100vh - 55px);
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    grid-template-rows: 0.8fr 2fr;
+    grid-template-areas: "titulo none" "texto none";
+    align-items: center; }
+    #header1 #contenedorSeccion1 .tituloSeccion1 {
+      grid-area: titulo;
+      margin-top: 30px; }
+    #header1 #contenedorSeccion1 .parrafoSeccion1 {
+      grid-area: texto;
+      padding: 15px;
+      margin: 0px 25px;
+      background-color: #0000005e;
+      border-radius: 40px; }
+
+.formularioDeRegistro {
+  width: 450px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  border: 3px solid #1f54c5c7;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  box-shadow: 8px 8px 45px #505050bf; }
+  .formularioDeRegistro h4 {
+    font-size: 22px;
+    margin-bottom: 20px; }
+  .formularioDeRegistro .formulario .datosFormulario {
+    width: calc(100% - 30px);
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: white; }
+  .formularioDeRegistro .formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+    .formularioDeRegistro .formulario p a {
+      text-decoration: none; }
+      .formularioDeRegistro .formulario p a:hover {
+        color: white; }
+  .formularioDeRegistro .formulario .boton {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0px;
+    font-size: 16px; }
+    .formularioDeRegistro .formulario .boton:hover {
+      color: black;
+      box-shadow: 0px 0px 10px #00000086; }
+  .formularioDeRegistro .formulario .boton2 {
+    display: none; }
+
+#footer {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: lighter; }
+  #footer .redesSociales {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px; }
+    #footer .redesSociales li {
+      list-style-type: none; }
+      #footer .redesSociales li a {
+        text-decoration: none;
+        color: white; }
+      #footer .redesSociales li:hover {
+        color: gray; }
+  #footer .parrafoFooter {
+    color: rgba(158, 158, 158, 0.548);
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    padding: 10px; }
+
+@media screen and (max-width: 426px) {
+  .redesSociales {
+    padding: 20px 0px;
+    flex-direction: column;
+    row-gap: 20px; } }
+
+@media screen and (max-width: 768px) {
+  #header1 {
+    background-position: top;
+    background-size: 950px;
+    background-repeat: no-repeat; }
+    #header1 #contenedorSeccion1 {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-top: 320px; }
+      #header1 #contenedorSeccion1 .parrafoSeccion1 {
+        margin: 0px 30px;
+        padding: 23px; } }
+
+@media screen and (max-width: 426px) {
+  #header1 {
+    background-size: 600px; }
+    #header1 #contenedorSeccion1 {
+      margin-top: 190px; }
+      #header1 #contenedorSeccion1 .tituloSeccion1 {
+        margin-top: 0px; }
+      #header1 #contenedorSeccion1 .parrafoSeccion1 {
+        margin: 0px 10px;
+        font-size: 20px; }
+  .formularioDeRegistro {
+    width: 365px;
+    padding: 25px; }
+    .formularioDeRegistro p {
+      font-size: 15px; } }
+
+@media screen and (max-width: 376px) {
+  .formularioDeRegistro {
+    width: 330px;
+    padding: 10px; } }

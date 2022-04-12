@@ -1,0 +1,35 @@
+#footer{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    .redesSociales{
+        font-size: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            &:hover{
+                color: gray;
+            }
+        }
+    }
+    .parrafoFooter{
+        color: rgba(158, 158, 158, 0.548);
+        font-size: 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: lighter;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .redesSociales{
+        padding: 20px 0px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

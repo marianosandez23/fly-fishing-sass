@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+#body{
+    text-align: center;
+    background-color: black;
+    h1{
+        font-family: 'Covered By Your Grace', cursive;
+        font-weight: lighter;
+        font-size: 90px;
+        color: rgba(255, 255, 255, 0.70);
+    }
+    h2{
+        font-family: 'Covered By Your Grace', cursive;
+        font-weight: lighter;
+        font-size: 50px;
+        color: #f5f5f5b8;
+    }
+    h3{
+        color: white;
+        font-size: 30px;
+        font-family: 'Hubballi', cursive;
+    }
+    h5{
+        font-family: 'Covered By Your Grace', cursive;
+        font-weight: lighter;
+        font-size: 30px;
+        color: rgba(47, 79, 79, 0.5);
+        margin: 0px;
+    }
+    p{
+        color: #787878;
+        font-size: 25px;
+        font-family: 'Hubballi', cursive;
+    }
+    .fraseFinal h5{
+        padding: 10px 0px;
+        background-color: rgba(169, 169, 169, 0.17);
+        color: black;
+    }
+}
