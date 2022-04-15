@@ -77,11 +77,11 @@
             font-size: 18px;
             color: white;
         }
-        p{
-            height: 40px;
+        h4{
+            font-size: 14px;
+            margin-bottom: 0px;
+            margin-top: 15px;
             text-align: center;
-            font-size: $letrachicaform;
-            line-height: 40px;
             a{
                 text-decoration: none;
                 &:hover{
@@ -90,13 +90,13 @@
             }
         }
         .boton{
-            width: 100%;
+            width: 76%;
             background-color: #1f53c5;
             border: none;
             border-radius: 5px;
             padding: 12px;
             color: white;
-            margin: 16px 0px;
+            margin: 30px 0px 15px;
             font-size: 16px;
             &:hover{
                 color: black;
