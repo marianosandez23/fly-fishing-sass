@@ -10,7 +10,6 @@
                 background-color: rgba(169, 169, 169, 0.12);
             }
             .editorCentrarNav{
-                display: flex;
                 justify-content: center;
                 .editorTextosNav{
                     font-family: 'Bebas Neue', cursive;
@@ -19,6 +18,9 @@
                     .editorLink{
                         margin: 5px 0px;
                         padding: 0px;
+                        &:hover{
+                            color: whitesmoke;
+                        }
                     }
                 }
             }
@@ -77,8 +79,8 @@
             font-size: 18px;
             color: white;
         }
-        h4{
-            font-size: 14px;
+        p{
+            font-size: 18px;
             margin-bottom: 0px;
             margin-top: 15px;
             text-align: center;

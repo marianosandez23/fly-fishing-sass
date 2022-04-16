@@ -3,6 +3,11 @@
         background-position: top;
         background-size: contain;
         background-repeat: no-repeat;
+        .editorNavbar{
+            .editorContainer1{
+                padding: 10px;
+            }
+        }
         #contenedorSeccion1{
             height: auto;
             display: flex;
@@ -23,6 +28,9 @@
             margin-top: 190px;
             .tituloSeccion1{
                 margin-top: 0px;
+                h1{
+                    font-size: 50px;
+                }
             }
             .parrafoSeccion1{
                 margin: 0px 10px;
@@ -33,8 +41,10 @@
     .formularioDeRegistro{
         width: 365px;
         padding: 25px;
-        p{
-            font-size: 15px;
+        .formulario{
+            p{
+                font-size: 16px;
+            }
         }
     }
 }
