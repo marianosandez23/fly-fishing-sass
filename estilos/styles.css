@@ -38,6 +38,21 @@ p {
   font-size: 25px;
   font-family: 'Hubballi', cursive; }
 
+.norte {
+  background-image: url(../imagenes/rioMendoza.jpg); }
+
+.centro {
+  background-image: url(../imagenes/valleDeUco.jpg); }
+
+.centro2 {
+  background-image: url(../imagenes/arroyoPircas.jpg); }
+
+.centro3 {
+  background-image: url(../imagenes/quebradaDelCondor.jpg); }
+
+.sur {
+  background-image: url(../imagenes/rioAtuel.jpg); }
+
 #header1 {
   background-image: url(../imagenes/truchaImagen1.jpg);
   background-position: center;
@@ -124,6 +139,120 @@ p {
       box-shadow: 0px 0px 10px #00000086; }
   .formularioDeRegistro .formulario .boton2 {
     display: none; }
+
+#header3 .editorNavbar {
+  background-color: rgba(169, 169, 169, 0.3); }
+  #header3 .editorNavbar .editorContainer1 {
+    padding: 0px; }
+    #header3 .editorNavbar .editorContainer1 .editorBoton {
+      background-color: rgba(169, 169, 169, 0.12); }
+    #header3 .editorNavbar .editorContainer1 .editorCentrarNav {
+      justify-content: center; }
+      #header3 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+        column-gap: 45px; }
+        #header3 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink {
+          margin: 5px 0px;
+          padding: 0px; }
+          #header3 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink:hover {
+            color: whitesmoke; }
+
+#contenedorSeccion3 {
+  margin-top: 110px;
+  height: calc(100vh - 165px); }
+  #contenedorSeccion3 p {
+    margin: 120px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px; }
+
+.zonasDeMendoza {
+  margin: 0px 0px 50px 0px;
+  padding: 0px; }
+  .zonasDeMendoza h2 {
+    margin-bottom: 30px;
+    padding-top: 10px;
+    background-color: #12473b7a;
+    background-image: linear-gradient(to bottom, #00000000, #000000b8); }
+  .zonasDeMendoza .card-zonas {
+    width: 45%;
+    height: 640px;
+    outline: 5px solid #12473b7a;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    .zonasDeMendoza .card-zonas .card-img {
+      width: 100%;
+      height: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      border-radius: 20px 20px 0px 0px;
+      border-bottom: 5px solid #12473b7a;
+      background-image: url(../imagenes/rioMendoza.jpg); }
+    .zonasDeMendoza .card-zonas .card-img2 {
+      width: 100%;
+      height: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      border-radius: 20px 20px 0px 0px;
+      border-bottom: 5px solid #12473b7a;
+      background-image: url(../imagenes/valleDeUco.jpg); }
+    .zonasDeMendoza .card-zonas .card-img3 {
+      width: 100%;
+      height: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      border-radius: 20px 20px 0px 0px;
+      border-bottom: 5px solid #12473b7a;
+      background-image: url(../imagenes/rioAtuel.jpg); }
+    .zonasDeMendoza .card-zonas .card-img4 {
+      width: 100%;
+      height: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      border-radius: 20px 20px 0px 0px;
+      border-bottom: 5px solid #12473b7a;
+      background-image: url(../imagenes/arroyoPircas.jpg); }
+    .zonasDeMendoza .card-zonas .card-img5 {
+      width: 100%;
+      height: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      border-radius: 20px 20px 0px 0px;
+      border-bottom: 5px solid #12473b7a;
+      background-image: url(../imagenes/quebradaDelCondor.jpg); }
+    .zonasDeMendoza .card-zonas .card-title {
+      margin: 0px;
+      height: 10%; }
+      .zonasDeMendoza .card-zonas .card-title h2 {
+        margin: 0px;
+        padding: 7px 0px;
+        font-size: 30px; }
+    .zonasDeMendoza .card-zonas .card-content {
+      height: 20%;
+      display: flex;
+      align-items: center; }
+      .zonasDeMendoza .card-zonas .card-content p {
+        margin: 0px;
+        padding: 0px 10px 5px;
+        font-size: 17px; }
+    .zonasDeMendoza .card-zonas .card-btn .btn {
+      width: 40%;
+      background-color: #1f53c5;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      color: white;
+      font-size: 16px; }
+      .zonasDeMendoza .card-zonas .card-btn .btn:hover {
+        color: black;
+        box-shadow: 0px 0px 10px #00000086; }
 
 #footer {
   font-family: 'Bebas Neue', cursive;

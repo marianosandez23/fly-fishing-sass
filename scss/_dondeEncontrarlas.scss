@@ -1,0 +1,105 @@
+#header3{
+    .editorNavbar{
+        background-color: rgba(169, 169, 169, 0.3);
+        .editorContainer1{
+            padding: 0px;
+            .editorBoton{
+                background-color: rgba(169, 169, 169, 0.12);
+            }
+            .editorCentrarNav{
+                justify-content: center;
+                .editorTextosNav{
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 30px;
+                    column-gap: 45px;
+                    .editorLink{
+                        margin: 5px 0px;
+                        padding: 0px;
+                        &:hover{
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#contenedorSeccion3{
+    margin-top: 110px;
+    height:calc(100vh - 165px);
+    p{
+        margin: 120px 100px 0px 100px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+.zonasDeMendoza{
+    margin: 0px 0px 50px 0px; 
+    padding: 0px;
+    h2{
+        margin-bottom: 30px;
+        padding-top: 10px;
+        background-color: #12473b7a;
+        background-image: linear-gradient(to bottom, #00000000, #000000b8);
+    }
+    .card-zonas{
+        @include cards;
+        .card-img{
+            @include card-img;
+            background-image: map-get($imagenes, norte);
+        }
+        .card-img2{
+            @include card-img;
+            background-image: map-get($imagenes, centro);
+        }
+        .card-img3{
+            @include card-img;
+            background-image: map-get($imagenes, sur);
+        }
+        .card-img4{
+            @include card-img;
+            background-image: map-get($imagenes, centro2);
+        }
+        .card-img5{
+            @include card-img;
+            background-image: map-get($imagenes, centro3);
+        }
+        .card-title{
+            margin: 0px;
+            height: 10%;
+            h2{
+                margin: 0px;
+                padding: 7px 0px;
+                font-size: 30px;
+            }
+        }
+        .card-content{
+            height: 20%;
+            display: flex;
+            align-items: center;
+            p{
+                margin: 0px;
+                padding: 0px 10px 5px;
+                font-size: 17px;
+            }
+        }
+        .card-btn{
+            .btn{
+                width: 40%;
+                background-color: #1f53c5;
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                color: white;
+                font-size: 16px;
+                &:hover{
+                    color: black;
+                    box-shadow: 0px 0px 10px #00000086;
+                }
+            }
+        }
+    }
+}

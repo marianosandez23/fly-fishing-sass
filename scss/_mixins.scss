@@ -1,0 +1,40 @@
+@mixin h2 {
+    margin-bottom: 35px;
+    background-color: #12473b7a;
+    background-image: linear-gradient(to bottom, #00000000, #000000b8);
+}
+
+@mixin cards {
+    width: 45%;
+    height: 640px;
+    outline: 5px solid #12473b7a;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+@mixin card-img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 5px solid #12473b7a;
+}
+
+// MAPS
+
+$imagenes: (
+    norte: url(../imagenes/rioMendoza.jpg),
+    centro: url(../imagenes/valleDeUco.jpg),
+    centro2: url(../imagenes/arroyoPircas.jpg),
+    centro3: url(../imagenes/quebradaDelCondor.jpg),
+    sur: url(../imagenes/rioAtuel.jpg),
+);
+
+@each $red, $imagen in $imagenes {
+    .#{$red}{
+        background-image: $imagen;
+    }
+}
