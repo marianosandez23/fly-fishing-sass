@@ -1,4 +1,7 @@
 #header3{
+    background-image: url(../imagenes/fondoSeccion3.jpg);
+    background-position: center;
+    background-size: cover;
     .editorNavbar{
         background-color: rgba(169, 169, 169, 0.3);
         .editorContainer1{
@@ -23,16 +26,15 @@
             }
         }
     }
-}
-
-#contenedorSeccion3{
-    margin-top: 110px;
-    height:calc(100vh - 165px);
-    p{
-        margin: 120px 100px 0px 100px;
-        display: flex;
-        flex-direction: column;
-        row-gap: 30px;
+    #contenedorSeccion3{
+        margin-top: 30px;
+        height:calc(100vh - 55px);
+        p{
+            margin: 200px 100px 0px 100px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+        }
     }
 }
 
@@ -42,8 +44,17 @@
     h2{
         margin-bottom: 30px;
         padding-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
         background-color: #12473b7a;
         background-image: linear-gradient(to bottom, #00000000, #000000b8);
+    }
+    .zona-centro{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
     .card-zonas{
         @include cards;
