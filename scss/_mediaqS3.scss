@@ -1,0 +1,83 @@
+@media screen and (max-width: 1371px) {
+    .zonasDeMendoza{
+        .zona-centro{
+            flex-direction: column;
+        }
+        .card-zonas{
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #header3{
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        .editorNavbar{
+            .editorContainer1{
+                padding: 10px;
+            }
+        }
+        #contenedorSeccion3{
+            .tituloSeccion3{
+                margin-top: 200px;
+            }
+            p{
+                margin: 40px 40px 0px;
+                row-gap: 20px;
+            }
+        }
+    }
+    .zonasDeMendoza{
+        .card-zonas{
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #header3{
+        background-position: inherit;
+        background-size: 820px;
+        background-repeat: no-repeat;
+        #contenedorSeccion3{
+            height: calc(100vh - 240px);
+            margin-top: 190px;
+            .tituloSeccion3{
+                margin-top: 0px;
+                h1{
+                    font-size: 50px;
+                }
+            }
+            p{
+                margin: 0px 10px;
+                font-size: 20px;
+            }
+        }
+    }
+    .zonasDeMendoza{
+        .card-zonas{
+            width: 90%;
+            .card-content{
+                p{
+                    margin: 0px;
+                    padding: 0px;
+                    font-size: 17px;
+                }
+            }
+            .card-btn{
+                .btn{
+                    margin-top: 10px;
+                    width: 37%;
+                    padding: 8px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+}

@@ -127,7 +127,7 @@ p {
 
 #header3 {
   background-image: url(../imagenes/fondoSeccion3.jpg);
-  background-position: center;
+  background-position: left;
   background-size: cover; }
   #header3 .editorNavbar {
     background-color: rgba(169, 169, 169, 0.3); }
@@ -229,11 +229,13 @@ p {
       .zonasDeMendoza .card-zonas .card-title h2 {
         margin: 0px;
         padding: 7px 0px;
-        font-size: 30px; }
+        font-size: 30px;
+        border-radius: 0px; }
     .zonasDeMendoza .card-zonas .card-content {
       height: 20%;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      margin-bottom: 10px; }
       .zonasDeMendoza .card-zonas .card-content p {
         margin: 0px;
         padding: 0px 10px 5px;
@@ -329,3 +331,51 @@ p {
   .formularioDeRegistro {
     width: 330px;
     padding: 10px; } }
+
+@media screen and (max-width: 1371px) {
+  .zonasDeMendoza .zona-centro {
+    flex-direction: column; }
+  .zonasDeMendoza .card-zonas {
+    width: 50%; } }
+
+@media screen and (max-width: 769px) {
+  #header3 {
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat; }
+    #header3 .editorNavbar .editorContainer1 {
+      padding: 10px; }
+    #header3 #contenedorSeccion3 .tituloSeccion3 {
+      margin-top: 200px; }
+    #header3 #contenedorSeccion3 p {
+      margin: 40px 40px 0px;
+      row-gap: 20px; }
+  .zonasDeMendoza .card-zonas {
+    width: 70%; } }
+
+@media screen and (max-width: 426px) {
+  #header3 {
+    background-position: inherit;
+    background-size: 820px;
+    background-repeat: no-repeat; }
+    #header3 #contenedorSeccion3 {
+      height: calc(100vh - 240px);
+      margin-top: 190px; }
+      #header3 #contenedorSeccion3 .tituloSeccion3 {
+        margin-top: 0px; }
+        #header3 #contenedorSeccion3 .tituloSeccion3 h1 {
+          font-size: 50px; }
+      #header3 #contenedorSeccion3 p {
+        margin: 0px 10px;
+        font-size: 20px; }
+  .zonasDeMendoza .card-zonas {
+    width: 90%; }
+    .zonasDeMendoza .card-zonas .card-content p {
+      margin: 0px;
+      padding: 0px;
+      font-size: 17px; }
+    .zonasDeMendoza .card-zonas .card-btn .btn {
+      margin-top: 10px;
+      width: 37%;
+      padding: 8px;
+      font-size: 14px; } }
