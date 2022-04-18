@@ -38,6 +38,16 @@ p {
   font-size: 25px;
   font-family: 'Hubballi', cursive; }
 
+.titulo-zonas, .zonasDeMendoza h2 {
+  margin-bottom: 30px;
+  padding-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  background-color: #12473b7a;
+  background-image: linear-gradient(to bottom, #00000000, #000000b8); }
+
 #header1 {
   background-image: url(../imagenes/truchaImagen1.jpg);
   background-position: center;
@@ -158,15 +168,6 @@ p {
 .zonasDeMendoza {
   margin: 0px 0px 50px 0px;
   padding: 0px; }
-  .zonasDeMendoza h2 {
-    margin-bottom: 30px;
-    padding-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-    background-color: #12473b7a;
-    background-image: linear-gradient(to bottom, #00000000, #000000b8); }
   .zonasDeMendoza .zona-centro {
     display: flex;
     align-items: center;

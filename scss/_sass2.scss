@@ -35,3 +35,16 @@ $imagenes: (
     centro3: url(../imagenes/quebradaDelCondor.jpg),
     sur: url(../imagenes/rioAtuel.jpg),
 );
+
+// EXTEND
+
+.titulo-zonas{
+    margin-bottom: 30px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    background-color: #12473b7a;
+    background-image: linear-gradient(to bottom, #00000000, #000000b8);
+}
