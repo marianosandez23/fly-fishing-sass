@@ -1,0 +1,63 @@
+#header5{
+    background-image: url(../imagenes/fondoSeccion5.jpg);
+    background-position: center;
+    background-size: cover;
+    .editorNavbar{
+        background-color: rgba(169, 169, 169, 0.3);
+        .editorContainer1{
+            padding: 0px;
+            .editorBoton{
+                background-color: rgba(169, 169, 169, 0.12);
+            }
+            .editorCentrarNav{
+                justify-content: center;
+                .editorTextosNav{
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 30px;
+                    column-gap: 45px;
+                    .editorLink{
+                        margin: 5px 0px;
+                        padding: 0px;
+                        &:hover{
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #contenedorSeccion5{
+        margin-top: 30px;
+        height: calc(100vh - 55px);
+        .arrow{
+            img{
+                width: 130px;
+                margin-top: 160px;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-name: arrow;
+                @keyframes arrow{
+                    0%{
+                        opacity: 0;
+                    }
+                    100%{
+                        opacity: 1;
+                        transform: translate(0px, 150px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+#video2{
+    display: flex;
+    justify-content: center;
+    iframe{
+        width: 60%;
+        height: 500px;
+        border: 5px solid black;
+        box-shadow: 10px 8px 45px #5050509e;
+        margin: 60px;
+    }
+}

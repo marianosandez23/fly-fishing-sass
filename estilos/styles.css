@@ -12,7 +12,7 @@ html {
 h1 {
   font-family: 'Covered By Your Grace', cursive;
   font-weight: lighter;
-  font-size: 90px;
+  font-size: 80px;
   color: rgba(255, 255, 255, 0.7); }
 
 h2 {
@@ -35,8 +35,9 @@ h5 {
 
 p {
   color: #787878;
-  font-size: 25px;
-  font-family: 'Hubballi', cursive; }
+  font-size: 23px;
+  font-family: 'Hubballi', cursive;
+  text-align: justify; }
 
 .titulo-zonas, .zonasDeMendoza h2 {
   margin-bottom: 30px;
@@ -48,10 +49,81 @@ p {
   background-color: #12473b7a;
   background-image: linear-gradient(to bottom, #00000000, #000000b8); }
 
+#header {
+  background-image: url(../imagenes/fondoLogo1.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #header .editorNavbar {
+    background-color: rgba(169, 169, 169, 0.3); }
+    #header .editorNavbar .editorContainer1 {
+      padding: 0px; }
+      #header .editorNavbar .editorContainer1 .editorBoton {
+        background-color: rgba(169, 169, 169, 0.12); }
+      #header .editorNavbar .editorContainer1 .editorCentrarNav {
+        justify-content: center; }
+        #header .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav {
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          column-gap: 45px; }
+          #header .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink {
+            margin: 5px 0px;
+            padding: 0px; }
+            #header .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink:hover {
+              color: whitesmoke; }
+  #header #logoFlyFishing {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    animation-name: animLogo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: initial; }
+
+@keyframes animLogo {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+    #header #logoFlyFishing .logoPpal {
+      width: 550px;
+      opacity: 80%; }
+
+#contenedorMain {
+  margin: 100px 100px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 60px; }
+  #contenedorMain .subtituloUno {
+    background-color: #12473b7a;
+    border-radius: 40px;
+    padding: 15px 20px;
+    background-image: linear-gradient(to bottom, #00000000, #000000d4); }
+    #contenedorMain .subtituloUno h2 {
+      font-size: 35px;
+      padding-bottom: 15px; }
+
+.videoPesca {
+  padding: 180px 0px 200px 0px;
+  background-image: url(../imagenes/imagenFondoVideo.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex; }
+  .videoPesca iframe {
+    margin: 70px 0px 0px 70px;
+    border: 5px solid black;
+    box-shadow: 10px 8px 45px #5050509e; }
+
 #header1 {
   background-image: url(../imagenes/truchaImagen1.jpg);
-  background-position: center;
-  background-size: cover; }
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat; }
   #header1 .editorNavbar {
     background-color: rgba(169, 169, 169, 0.3); }
     #header1 .editorNavbar .editorContainer1 {
@@ -82,7 +154,7 @@ p {
     #header1 #contenedorSeccion1 .parrafoSeccion1 {
       grid-area: texto;
       padding: 15px;
-      margin: 0px 25px;
+      margin: 0px 0px 0px 10px;
       background-color: #0000005e;
       border-radius: 40px; }
 
@@ -135,6 +207,64 @@ p {
   .formularioDeRegistro .formulario .boton2 {
     display: none; }
 
+#body2 {
+  text-align: center;
+  background-color: black;
+  background-image: url(../imagenes/fondoSeccion2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  #body2 .editorNavbar {
+    background-color: rgba(169, 169, 169, 0.3); }
+    #body2 .editorNavbar .editorContainer1 {
+      padding: 0px; }
+      #body2 .editorNavbar .editorContainer1 .editorBoton {
+        background-color: rgba(169, 169, 169, 0.12); }
+      #body2 .editorNavbar .editorContainer1 .editorCentrarNav {
+        justify-content: center; }
+        #body2 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav {
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          column-gap: 45px; }
+          #body2 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink {
+            margin: 5px 0px;
+            padding: 0px; }
+            #body2 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink:hover {
+              color: whitesmoke; }
+  #body2 #contenedorSeccion2 .tituloSeccion2 {
+    margin-top: 30px; }
+  #body2 #contenedorSeccion2 .prueba1 {
+    height: calc(100vh - 181px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly; }
+    #body2 #contenedorSeccion2 .prueba1 .trucha1 {
+      background-color: #12473b7a;
+      border-radius: 15px;
+      margin: 0px 5px; }
+      #body2 #contenedorSeccion2 .prueba1 .trucha1:hover {
+        box-shadow: 3px 3px 8px #000000;
+        background-color: #12473bc5; }
+      #body2 #contenedorSeccion2 .prueba1 .trucha1 h2 {
+        margin: auto; }
+      #body2 #contenedorSeccion2 .prueba1 .trucha1 img {
+        height: 220px; }
+      #body2 #contenedorSeccion2 .prueba1 .trucha1 .accordion {
+        margin: 0px 15px 15px;
+        font-size: 14px; }
+        #body2 #contenedorSeccion2 .prueba1 .trucha1 .accordion .accordion-item {
+          background-color: #12473b00;
+          border: 0px; }
+          #body2 #contenedorSeccion2 .prueba1 .trucha1 .accordion .accordion-item:first-of-type .accordion-button {
+            color: whitesmoke;
+            background-color: #12473b7a;
+            font-size: 20px;
+            padding: 10px; }
+          #body2 #contenedorSeccion2 .prueba1 .trucha1 .accordion .accordion-item .accordion-body {
+            padding: 5px 10px;
+            text-align: justify;
+            color: rgba(245, 245, 245, 0.68); }
+
 #header3 {
   background-image: url(../imagenes/fondoSeccion3.jpg);
   background-position: left;
@@ -169,78 +299,62 @@ p {
   margin: 0px 0px 50px 0px;
   padding: 0px; }
   .zonasDeMendoza .zona-centro {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    display: flex; }
   .zonasDeMendoza .card-zonas {
-    width: 32%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     height: 640px;
     outline: 5px solid #12473b7a;
     border-radius: 20px;
     margin: 0 auto;
     margin-bottom: 50px; }
     .zonasDeMendoza .card-zonas .card-img {
-      width: 100%;
       height: 60%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
-      border-bottom: 5px solid #12473b7a;
       background-image: url(../imagenes/rioMendoza.jpg); }
     .zonasDeMendoza .card-zonas .card-img2 {
-      width: 100%;
       height: 60%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
-      border-bottom: 5px solid #12473b7a;
       background-image: url(../imagenes/valleDeUco.jpg); }
     .zonasDeMendoza .card-zonas .card-img3 {
-      width: 100%;
       height: 60%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
-      border-bottom: 5px solid #12473b7a;
       background-image: url(../imagenes/rioAtuel.jpg); }
     .zonasDeMendoza .card-zonas .card-img4 {
-      width: 100%;
       height: 60%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
-      border-bottom: 5px solid #12473b7a;
       background-image: url(../imagenes/arroyoPircas.jpg); }
     .zonasDeMendoza .card-zonas .card-img5 {
-      width: 100%;
       height: 60%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
-      border-bottom: 5px solid #12473b7a;
       background-image: url(../imagenes/quebradaDelCondor.jpg); }
     .zonasDeMendoza .card-zonas .card-title {
-      margin: 0px;
-      height: 10%; }
+      margin: 0px; }
       .zonasDeMendoza .card-zonas .card-title h2 {
         margin: 0px;
         padding: 7px 0px;
         font-size: 30px;
         border-radius: 0px; }
-    .zonasDeMendoza .card-zonas .card-content {
-      height: 20%;
-      display: flex;
-      align-items: center;
-      margin-bottom: 10px; }
-      .zonasDeMendoza .card-zonas .card-content p {
-        margin: 0px;
-        padding: 0px 10px 5px;
-        font-size: 17px; }
+    .zonasDeMendoza .card-zonas .card-content p {
+      margin: 0px;
+      padding: 0px 10px 5px;
+      font-size: 17px; }
     .zonasDeMendoza .card-zonas .card-btn .btn {
       width: 40%;
       background-color: #1f53c5;
@@ -248,10 +362,112 @@ p {
       border-radius: 5px;
       padding: 10px;
       color: white;
-      font-size: 16px; }
+      font-size: 16px;
+      margin: 30px; }
       .zonasDeMendoza .card-zonas .card-btn .btn:hover {
         color: black;
         box-shadow: 0px 0px 10px #00000086; }
+
+#header4 {
+  background-image: url(../imagenes/fondoSeccion4.jpg);
+  background-position: center;
+  background-size: cover; }
+  #header4 .editorNavbar {
+    background-color: rgba(169, 169, 169, 0.3); }
+    #header4 .editorNavbar .editorContainer1 {
+      padding: 0px; }
+      #header4 .editorNavbar .editorContainer1 .editorBoton {
+        background-color: rgba(169, 169, 169, 0.12); }
+      #header4 .editorNavbar .editorContainer1 .editorCentrarNav {
+        justify-content: center; }
+        #header4 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav {
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          column-gap: 45px; }
+          #header4 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink {
+            margin: 5px 0px;
+            padding: 0px; }
+            #header4 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink:hover {
+              color: whitesmoke; }
+  #header4 #contenedorSeccion4 {
+    margin-top: 30px;
+    height: calc(100vh - 55px); }
+    #header4 #contenedorSeccion4 h2 {
+      margin-top: 90px; }
+    #header4 #contenedorSeccion4 .arrow img {
+      width: 130px;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-name: arrow; }
+
+@keyframes img {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 150px); }
+  100% {
+    opacity: 1; } }
+
+.mosquitasCarrusel {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px 100px 0px; }
+  .mosquitasCarrusel .mosca {
+    opacity: 80%; }
+    .mosquitasCarrusel .mosca img {
+      width: 260px; }
+      .mosquitasCarrusel .mosca img:hover {
+        transform: translate(0px, -20px);
+        border: 3px solid black;
+        box-shadow: 1px 1px 20px rgba(245, 245, 245, 0.666);
+        border-radius: 200px; }
+
+#header5 {
+  background-image: url(../imagenes/fondoSeccion5.jpg);
+  background-position: center;
+  background-size: cover; }
+  #header5 .editorNavbar {
+    background-color: rgba(169, 169, 169, 0.3); }
+    #header5 .editorNavbar .editorContainer1 {
+      padding: 0px; }
+      #header5 .editorNavbar .editorContainer1 .editorBoton {
+        background-color: rgba(169, 169, 169, 0.12); }
+      #header5 .editorNavbar .editorContainer1 .editorCentrarNav {
+        justify-content: center; }
+        #header5 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav {
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          column-gap: 45px; }
+          #header5 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink {
+            margin: 5px 0px;
+            padding: 0px; }
+            #header5 .editorNavbar .editorContainer1 .editorCentrarNav .editorTextosNav .editorLink:hover {
+              color: whitesmoke; }
+  #header5 #contenedorSeccion5 {
+    margin-top: 30px;
+    height: calc(100vh - 55px); }
+    #header5 #contenedorSeccion5 .arrow img {
+      width: 130px;
+      margin-top: 160px;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-name: arrow; }
+
+@keyframes arrow {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 150px); } }
+
+#video2 {
+  display: flex;
+  justify-content: center; }
+  #video2 iframe {
+    width: 60%;
+    height: 500px;
+    border: 5px solid black;
+    box-shadow: 10px 8px 45px #5050509e;
+    margin: 60px; }
 
 #footer {
   font-family: 'Bebas Neue', cursive;
@@ -278,7 +494,8 @@ p {
     font-size: 15px;
     font-family: 'Bebas Neue', cursive;
     font-weight: lighter;
-    padding: 10px; }
+    padding: 10px;
+    text-align: center; }
 
 @media screen and (max-width: 426px) {
   #footer .redesSociales {
@@ -294,27 +511,86 @@ p {
   #footer .fraseFinal h5 {
     font-size: 18px; } }
 
-@media screen and (max-width: 1289px) {
-  #header1 {
-    background-position: top;
+@media screen and (max-width: 1025px) {
+  .videoPesca {
+    padding: 20px 0px 370px 0px;
     background-size: contain;
-    background-repeat: no-repeat; }
-    #header1 .editorNavbar .editorContainer1 {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    justify-content: center; }
+    .videoPesca iframe {
+      margin: 0px; } }
+
+@media screen and (max-width: 768px) {
+  #header {
+    background-size: contain; }
+    #header .editorNavbar .editorContainer1 {
       padding: 10px; }
+    #header #logoFlyFishing {
+      height: calc(100vh - 60px);
+      flex-direction: row; }
+      #header #logoFlyFishing .logoPpal {
+        width: 450px; }
+      #header #logoFlyFishing .tituloPrincipal h1 {
+        font-size: 65px; }
+  #contenedorMain {
+    margin: 25px 50px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 35px; }
+    #contenedorMain .subtituloUno {
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 30px 30px;
+      justify-content: center;
+      align-content: space-around; }
+      #contenedorMain .subtituloUno h2 {
+        font-size: 35px;
+        padding-bottom: 20px; } }
+
+@media screen and (max-width: 426px) {
+  #header {
+    background-size: 900px; }
+    #header #logoFlyFishing {
+      height: calc(100vh - 60px); }
+      #header #logoFlyFishing .logoPpal {
+        width: 300px; }
+      #header #logoFlyFishing .tituloPrincipal h1 {
+        font-size: 40px; }
+  #contenedorMain {
+    margin: 5px 20px; }
+    #contenedorMain .subtituloUno {
+      padding: 15px 15px; }
+      #contenedorMain .subtituloUno h2 {
+        font-size: 29px;
+        padding-bottom: 20px; }
+      #contenedorMain .subtituloUno p {
+        font-size: 20px; }
+  .videoPesca {
+    padding: 45px 25px 240px 25px; } }
+
+@media screen and (max-width: 1289px) {
+  #header1 .editorNavbar .editorContainer1 {
+    padding: 10px; }
+  #header1 #contenedorSeccion1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 320px; }
+    #header1 #contenedorSeccion1 .parrafoSeccion1 {
+      margin: 0px 30px;
+      padding: 23px; } }
+
+@media screen and (max-width: 769px) {
+  #header1 {
+    margin-bottom: 145px; }
     #header1 #contenedorSeccion1 {
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      margin-top: 320px; }
-      #header1 #contenedorSeccion1 .parrafoSeccion1 {
-        margin: 0px 30px;
-        padding: 23px; } }
+      margin-top: 240px; } }
 
 @media screen and (max-width: 426px) {
   #header1 {
-    background-size: 600px; }
+    background-size: 490px; }
     #header1 #contenedorSeccion1 {
-      margin-top: 190px; }
+      margin-top: 130px; }
       #header1 #contenedorSeccion1 .tituloSeccion1 {
         margin-top: 0px; }
         #header1 #contenedorSeccion1 .tituloSeccion1 h1 {
@@ -329,9 +605,42 @@ p {
       font-size: 16px; } }
 
 @media screen and (max-width: 376px) {
+  #header1 {
+    margin-bottom: 215px; }
   .formularioDeRegistro {
     width: 330px;
     padding: 10px; } }
+
+@media screen and (max-width: 1345px) {
+  #body2 {
+    background-position-x: right; }
+    #body2 .editorNavbar .editorContainer1 {
+      padding: 10px; }
+    #body2 #contenedorSeccion2 .prueba1 {
+      flex-direction: column;
+      align-items: stretch;
+      margin: 15px 200px;
+      height: 100%; }
+      #body2 #contenedorSeccion2 .prueba1 .trucha1 {
+        margin: 15px; }
+        #body2 #contenedorSeccion2 .prueba1 .trucha1 img {
+          height: 220px; } }
+
+@media screen and (max-width: 770px) {
+  #body2 #contenedorSeccion2 .prueba1 {
+    margin: 15px 80px; } }
+
+@media screen and (max-width: 430px) {
+  #body2 #contenedorSeccion2 .tituloSeccion2 h1 {
+    font-size: 50px; }
+  #body2 #contenedorSeccion2 .prueba1 {
+    margin: 15px 10px; }
+    #body2 #contenedorSeccion2 .prueba1 .trucha1 {
+      margin: 7px; }
+      #body2 #contenedorSeccion2 .prueba1 .trucha1 h2 {
+        font-size: 35px; }
+      #body2 #contenedorSeccion2 .prueba1 .trucha1 img {
+        height: 160px; } }
 
 @media screen and (max-width: 1371px) {
   .zonasDeMendoza .zona-centro {
@@ -367,16 +676,128 @@ p {
         #header3 #contenedorSeccion3 .tituloSeccion3 h1 {
           font-size: 50px; }
       #header3 #contenedorSeccion3 p {
-        margin: 0px 10px;
+        margin: 0px 20px;
         font-size: 20px; }
   .zonasDeMendoza .card-zonas {
     width: 90%; }
+    .zonasDeMendoza .card-zonas .card-img {
+      height: 55%; }
     .zonasDeMendoza .card-zonas .card-content p {
-      margin: 0px;
+      margin: 0px 10px;
       padding: 0px;
       font-size: 17px; }
     .zonasDeMendoza .card-zonas .card-btn .btn {
-      margin-top: 10px;
       width: 37%;
       padding: 8px;
       font-size: 14px; } }
+
+@media screen and (max-width: 1300px) {
+  .mosquitasCarrusel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 120px 100px 120px;
+    row-gap: 30px;
+    flex-wrap: wrap; }
+    .mosquitasCarrusel .mosca img {
+      width: 300px; }
+      .mosquitasCarrusel .mosca img:hover {
+        transform: translate(0px, -5px); } }
+
+@media screen and (max-width: 769px) {
+  #header4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top; }
+    #header4 .editorNavbar .editorContainer1 {
+      padding: 10px; }
+    #header4 #contenedorSeccion4 {
+      margin-top: 230px;
+      height: calc(100vh - 220px); }
+      #header4 #contenedorSeccion4 h2 {
+        margin-top: 35px;
+        font-size: 40px; }
+      #header4 #contenedorSeccion4 .arrow img {
+        width: 100px;
+        margin-top: 10px; }
+  @keyframes arrow {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 60px); } }
+  .mosquitasCarrusel {
+    padding: 0px 0px 60px 0px; } }
+
+@media screen and (max-width: 426px) {
+  #header4 #contenedorSeccion4 {
+    margin-top: 110px;
+    height: calc(100vh - 220px); }
+    #header4 #contenedorSeccion4 h1 {
+      font-size: 50px; }
+    #header4 #contenedorSeccion4 h2 {
+      margin-top: 120px;
+      font-size: 30px;
+      padding: 0px 20px; }
+    #header4 #contenedorSeccion4 .arrow img {
+      width: 100px;
+      margin-top: 10px; }
+  @keyframes arrow {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 80px); } }
+  .mosquitasCarrusel {
+    padding: 30px 0px 60px 0px; } }
+
+@media screen and (max-width: 1300px) {
+  #video2 iframe {
+    height: 400px; } }
+
+@media screen and (max-width: 769px) {
+  #header5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 20px; }
+    #header5 .editorNavbar .editorContainer1 {
+      padding: 10px; }
+    #header5 #contenedorSeccion5 {
+      margin-top: 220px;
+      height: calc(100vh - 320px); }
+      #header5 #contenedorSeccion5 .arrow img {
+        width: 100px;
+        margin-top: 90px; }
+  @keyframes arrow {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 60px); } }
+  #video2 iframe {
+    width: 80%;
+    height: 350px; } }
+
+@media screen and (max-width: 426px) {
+  #header5 {
+    background-size: 820px;
+    background-position-x: 0px;
+    background-position-y: 20px; }
+    #header5 #contenedorSeccion5 {
+      margin-top: 260px;
+      height: calc(100vh - 320px); }
+      #header5 #contenedorSeccion5 h1 {
+        font-size: 45px; }
+  #video2 iframe {
+    width: 90%;
+    height: 220px;
+    margin: 30px 15px 50px 15px; } }
+
+@media screen and (max-width: 376px) {
+  #header5 {
+    background-size: 720px; }
+    #header5 #contenedorSeccion5 h1 {
+      font-size: 40px; }
+  #video2 iframe {
+    height: 190px; } }

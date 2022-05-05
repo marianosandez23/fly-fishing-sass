@@ -1,0 +1,84 @@
+@media screen and (max-width: 1300px){
+    #video2{
+        iframe{
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 769px){
+    #header5{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-position-y: 20px;
+        .editorNavbar{
+            .editorContainer1{
+                padding: 10px;
+            }
+        }
+        #contenedorSeccion5{
+            margin-top: 220px;
+            height: calc(100vh - 320px);
+            .arrow{
+                img{
+                    width: 100px;
+                    margin-top: 90px;
+                    @keyframes arrow{
+                        0%{
+                            opacity: 0;
+                        }
+                        100%{
+                            opacity: 1;
+                            transform: translate(0px, 60px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #video2{
+        iframe{
+            width: 80%;
+            height: 350px;
+        }
+    }
+}
+
+@media screen and (max-width: 426px){
+    #header5{
+        background-size: 820px;
+        background-position-x: 0px;
+        background-position-y: 20px;
+        #contenedorSeccion5{
+            margin-top: 260px;
+            height: calc(100vh - 320px);
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
+    #video2{
+        iframe{
+            width: 90%;
+            height: 220px;
+            margin: 30px 15px 50px 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 376px){
+    #header5{
+        background-size: 720px;
+        #contenedorSeccion5{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    #video2{
+        iframe{
+            height: 190px;
+        }
+    }
+}

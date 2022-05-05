@@ -1,0 +1,77 @@
+#body2{
+    text-align: center;
+    background-color: black;
+    background-image: url(../imagenes/fondoSeccion2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .editorNavbar{
+        background-color: rgba(169, 169, 169, 0.3);
+        .editorContainer1{
+            padding: 0px;
+            .editorBoton{
+                background-color: rgba(169, 169, 169, 0.12);
+            }
+            .editorCentrarNav{
+                justify-content: center;
+                .editorTextosNav{
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 30px;
+                    column-gap: 45px;
+                    .editorLink{
+                        margin: 5px 0px;
+                        padding: 0px;
+                        &:hover{
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #contenedorSeccion2{
+        .tituloSeccion2{
+            margin-top: 30px;
+        }
+        .prueba1{
+            height: calc(100vh - 181px);
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            .trucha1{
+                background-color: #12473b7a;
+                border-radius: 15px;
+                margin: 0px 5px;
+                &:hover{
+                    box-shadow: 3px 3px 8px #000000;
+                    background-color: #12473bc5;
+                }
+                h2{
+                    margin: auto;
+                }
+                img{
+                    height: 220px;
+                }
+                .accordion{
+                    margin: 0px 15px 15px;
+                    font-size: 14px;
+                    .accordion-item{
+                        background-color: #12473b00;
+                        border: 0px;
+                        &:first-of-type .accordion-button {
+                            color: whitesmoke;
+                            background-color: #12473b7a;
+                            font-size: 20px;
+                            padding: 10px;
+                        }
+                        .accordion-body {
+                            padding: 5px 10px;
+                            text-align: justify;
+                            color: rgba(245, 245, 245, 0.68);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

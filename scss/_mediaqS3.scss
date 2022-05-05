@@ -51,7 +51,7 @@
                 }
             }
             p{
-                margin: 0px 10px;
+                margin: 0px 20px;
                 font-size: 20px;
             }
         }
@@ -59,16 +59,18 @@
     .zonasDeMendoza{
         .card-zonas{
             width: 90%;
+            .card-img{
+                height: 55%;
+            }
             .card-content{
                 p{
-                    margin: 0px;
+                    margin: 0px 10px;
                     padding: 0px;
                     font-size: 17px;
                 }
             }
             .card-btn{
                 .btn{
-                    margin-top: 10px;
                     width: 37%;
                     padding: 8px;
                     font-size: 14px;
@@ -76,8 +78,4 @@
             }
         }
     }
-}
-
-@media screen and (max-width: 426px) {
-
 }

@@ -1,0 +1,83 @@
+#header{
+    background-image: url(../imagenes/fondoLogo1.jpg);
+    background-position: top;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    .editorNavbar{
+        background-color: rgba(169, 169, 169, 0.3);
+        .editorContainer1{
+            padding: 0px;
+            .editorBoton{
+                background-color: rgba(169, 169, 169, 0.12);
+            }
+            .editorCentrarNav{
+                justify-content: center;
+                .editorTextosNav{
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 30px;
+                    column-gap: 45px;
+                    .editorLink{
+                        margin: 5px 0px;
+                        padding: 0px;
+                        &:hover{
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #logoFlyFishing{
+        height: calc(100vh - 60px);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        animation-name: animLogo;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: initial;
+        @keyframes animLogo{
+            0%{ opacity: 0;}
+            100%{opacity: 1;}
+        }
+        .logoPpal{
+            width: 550px;
+            opacity: 80%;
+        }
+    }
+}
+
+#contenedorMain{
+    margin: 100px 100px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 60px;
+    .subtituloUno{
+        background-color: #12473b7a;
+        border-radius: 40px;
+        padding: 15px 20px;
+        background-image: linear-gradient(to bottom, #00000000, #000000d4);
+        h2{ 
+            font-size: 35px;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+.videoPesca{
+    padding: 180px 0px 200px 0px;
+    background-image: url(../imagenes/imagenFondoVideo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    iframe{
+        margin: 70px 0px 0px 70px;
+        border: 5px solid black;
+        box-shadow: 10px 8px 45px #5050509e;
+    }
+}
+

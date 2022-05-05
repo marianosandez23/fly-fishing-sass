@@ -1,0 +1,87 @@
+@media screen and (max-width: 1025px){
+    .videoPesca{
+        padding: 20px 0px 370px 0px;
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        justify-content: center;
+        iframe{
+            margin: 0px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    #header{
+        background-size: contain;
+        .editorNavbar{
+            .editorContainer1{
+                padding: 10px;
+            }
+        }
+        #logoFlyFishing{
+            height: calc(100vh - 60px);
+            flex-direction: row;
+            .logoPpal{
+                width: 450px;
+            }
+            .tituloPrincipal{
+                h1{
+                    font-size: 65px;
+                }
+            }
+        }
+    }
+    #contenedorMain {
+        margin: 25px 50px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 35px;
+        .subtituloUno{
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 30px 30px;
+            justify-content: center;
+            align-content: space-around;
+            h2{ 
+                font-size: 35px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 426px){
+    #header{
+        background-size: 900px;
+        #logoFlyFishing{
+            height: calc(100vh - 60px);
+            .logoPpal{
+                width: 300px;    
+            }
+            .tituloPrincipal{
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    #contenedorMain {
+        margin: 5px 20px;
+        .subtituloUno{
+            padding: 15px 15px;
+            h2{ 
+                font-size: 29px;
+                padding-bottom: 20px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    .videoPesca{
+        padding: 45px 25px 240px 25px;
+    }
+}

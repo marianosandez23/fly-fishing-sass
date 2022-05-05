@@ -1,15 +1,11 @@
 @media screen and (max-width: 1289px) {
     #header1{
-        background-position: top;
-        background-size: contain;
-        background-repeat: no-repeat;
         .editorNavbar{
             .editorContainer1{
                 padding: 10px;
             }
         }
         #contenedorSeccion1{
-            height: auto;
             display: flex;
             flex-direction: column;
             margin-top: 320px;
@@ -21,11 +17,20 @@
     }
 }
 
+@media screen and (max-width: 769px){
+    #header1{
+        margin-bottom: 145px;
+        #contenedorSeccion1{
+            margin-top: 240px;
+        }
+    }
+}
+
 @media screen and (max-width: 426px){
     #header1{
-        background-size: 600px;
+        background-size: 490px;
         #contenedorSeccion1{
-            margin-top: 190px;
+            margin-top: 130px;
             .tituloSeccion1{
                 margin-top: 0px;
                 h1{
@@ -50,6 +55,9 @@
 }
 
 @media screen and (max-width: 376px){
+    #header1{
+        margin-bottom: 215px;
+    }
     .formularioDeRegistro {
         width: 330px;
         padding: 10px;
