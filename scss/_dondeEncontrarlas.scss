@@ -46,6 +46,7 @@
     }
     .zona-centro{
         display: flex;
+        justify-content: space-evenly;
     }
     .card-zonas{
         @include cards;

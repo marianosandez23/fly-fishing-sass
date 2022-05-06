@@ -299,7 +299,8 @@ p {
   margin: 0px 0px 50px 0px;
   padding: 0px; }
   .zonasDeMendoza .zona-centro {
-    display: flex; }
+    display: flex;
+    justify-content: space-evenly; }
   .zonasDeMendoza .card-zonas {
     display: flex;
     flex-direction: column;
@@ -310,35 +311,35 @@ p {
     margin: 0 auto;
     margin-bottom: 50px; }
     .zonasDeMendoza .card-zonas .card-img {
-      height: 60%;
+      height: 55%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
       background-image: url(../imagenes/rioMendoza.jpg); }
     .zonasDeMendoza .card-zonas .card-img2 {
-      height: 60%;
+      height: 55%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
       background-image: url(../imagenes/valleDeUco.jpg); }
     .zonasDeMendoza .card-zonas .card-img3 {
-      height: 60%;
+      height: 55%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
       background-image: url(../imagenes/rioAtuel.jpg); }
     .zonasDeMendoza .card-zonas .card-img4 {
-      height: 60%;
+      height: 55%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
       border-radius: 20px 20px 0px 0px;
       background-image: url(../imagenes/arroyoPircas.jpg); }
     .zonasDeMendoza .card-zonas .card-img5 {
-      height: 60%;
+      height: 55%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
